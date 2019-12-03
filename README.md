@@ -17,4 +17,4 @@ Inicialmente irei utilizar o ReactJs para construir a interface e funcionalidade
 ## Contribua com o projeto!
 Gostou dessa simples ideia? Sinta-se a vontade a contribuir! A ajuda da comunidade é sempre bem-vinda!
 
-## Obrigado! By Johnny Ferreira
+Desde já, obrigado! By Johnny Ferreira.
