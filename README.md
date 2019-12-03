@@ -1,10 +1,10 @@
 # MilkMoney
 Aplicação para controle de vendas de leite
 
-O MilkMoney é um sistema que tem por objetivo, ajudar ritineiros (profissional que tira leite das vacas, cabras, ovelhas), ordenhadores e vendedores de pequeno porte a controlar suas vendas de leite. 
+O MilkMoney é um sistema que tem por objetivo, ajudar ritineiros (profissionais que tiram leite das vacas, cabras, ovelhas), ordenhadores e vendedores de pequeno porte a controlar suas vendas de leite. 
 
 ## Sobre o problema
-Como é feita a venda de leite por pequenos produtores? Geralmente, os vendedores recebem uma quantidade em litros de leite que foi extraido, um total por litro é calculado, e é responsabilidade do vendedor contabilizar o total (em dinheiro) foi produzido e vendido em um determinado dia. 
+Como é feita a venda de leite por pequenos produtores? Geralmente, os vendedores recebem uma quantidade em litros de leite que foi extraido, um total por litro é calculado, e é responsabilidade do vendedor contabilizar o total (em dinheiro) que foi produzido e vendido em um determinado dia. 
 
 Considerendo que uma possível prestação de contas é realizada ao final de cada mês, como o vendedor irá calcular seu rendimento? Anotações em papel? Na era em que nos encontramos, os sistemas são nossos aliados em questões simples como estas, mas que podem ser essenciais para o sucesso de um empreendimento.
 
