@@ -1,10 +1,23 @@
-.dashboard {
-  display: grid;
-  grid-template-columns: 50px 1fr 10px;
-  grid-template-rows: 100%;
-  grid-template-areas: "menu main aside";
+.dashboard .menu {
+  grid-area: menu;
+  background: coral;
 }
 
-.menu { grid-area: menu; background: blue; }
-.main { grid-area: main; }
-.aside { grid-area: aside; }
+.dashboard .main {
+  grid-area: main;
+  background: cornflowerblue;
+}
+
+.dashboard .aside {
+  grid-area: aside;
+  background: deeppink;
+}
+
+.dashboard {
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: 74px auto 30%;
+  grid-template-rows: 1fr;
+  grid-template-areas: "menu main aside";
+}
