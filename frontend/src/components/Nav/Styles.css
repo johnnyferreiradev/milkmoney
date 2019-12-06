@@ -1,0 +1,23 @@
+.menu {
+  background: coral;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu nav .menu-list {
+  list-style: none;
+  padding: 0px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu nav .menu-list .menu-item {
+  margin-bottom: 40px;
+}

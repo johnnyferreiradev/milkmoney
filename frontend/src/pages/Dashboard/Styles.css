@@ -1,16 +1,13 @@
 .dashboard .menu {
   grid-area: menu;
-  background: coral;
 }
 
 .dashboard .main {
   grid-area: main;
-  background: cornflowerblue;
 }
 
 .dashboard .aside {
   grid-area: aside;
-  background: deeppink;
 }
 
 .dashboard {

@@ -1,12 +1,14 @@
 import React from 'react';
 
+import Nav from '../../components/Nav/Nav';
+
 import './Styles.css';
 
 export default class Dashboard extends React.Component {
   render() {
     return (
       <div className="dashboard">
-        <nav className="menu">Nav</nav>
+        <Nav />
         <main className="main">Main</main>
         <aside className="aside">Aside</aside>
       </div>
