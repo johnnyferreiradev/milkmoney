@@ -2,7 +2,7 @@
   grid-area: menu;
 }
 
-.dashboard .main {
+.dashboard .content {
   grid-area: main;
 }
 

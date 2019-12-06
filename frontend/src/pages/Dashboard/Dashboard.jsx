@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Nav from '../../components/Nav/Nav';
+import Content from '../../components/Content/Content';
 
 import './Styles.css';
 
@@ -9,7 +10,7 @@ export default class Dashboard extends React.Component {
     return (
       <div className="dashboard">
         <Nav />
-        <main className="main">Main</main>
+        <Content />
         <aside className="aside">Aside</aside>
       </div>
     );
