@@ -1,11 +1,13 @@
 import React from 'react';
 
+import Statistics from '../Statistics/Statistics';
+
 import './Styles.css';
 
 export default function RightAside() {
   return (
     <aside className="aside">
-      <h1>Aside</h1>
+      <Statistics />
     </aside>
   );
 }
