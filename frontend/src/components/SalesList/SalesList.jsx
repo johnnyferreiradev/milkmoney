@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Sale from '../Sale/Sale';
+import ButtonNewSale from '../ButtonNewSale/ButtonNewSale';
 
 import './Styles.css';
 
@@ -32,9 +33,8 @@ export default class SalesList extends React.Component {
 
     return (
       <div className="sales-list">
-        {
-          listItems
-        }
+        <ButtonNewSale />
+        { listItems }
       </div>
     );
   }
