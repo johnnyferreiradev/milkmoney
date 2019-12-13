@@ -3,7 +3,9 @@ import React from 'react';
 export default class ButtonNewSale extends React.Component {
     render() {
         return (
-            <h1>+ new</h1>
+            <div className="button-new-sale">
+                <button>Nova venda</button>
+            </div>
         );
     }
 }
