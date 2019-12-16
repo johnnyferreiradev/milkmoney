@@ -2,13 +2,15 @@ import React from 'react'
 
 import Nav from '../../components/Nav/Nav';
 
+import './Styles.css';
+
 export default class FormNewSale extends React.Component {
     render() {
         return (
             <div className="sales-form-page">
                 <Nav />
-                <h1>Nova venda</h1>
-                <div>
+                <div className="content">
+                    <h1>Nova venda</h1>
                     <form>
                         <div className="form-sale-group">
                             <label htmlFor="">Data da venda</label>
