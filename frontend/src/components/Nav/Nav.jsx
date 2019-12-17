@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './Styles.css';
 
@@ -13,7 +14,9 @@ export default class Nav extends React.Component {
           <ul className="menu-list">
             <li className="menu-item">Item 1</li>
             <li className="menu-item">Item 2</li>
-            <li className="menu-item">Item 3</li>
+            <li className="menu-item">
+              <Link to="/settings">Settings</Link>
+            </li>
           </ul>
         </nav>
         <footer>

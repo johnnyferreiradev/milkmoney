@@ -10,7 +10,7 @@ export default function Routes() {
     <BrowserRouter>
       <Route path="/" exact component={Dashboard} />
       <Route path="/salesform" component={SalesFormPage} />
-      <Route path="/config" component={ConfigPage} />
+      <Route path="/settings" component={ConfigPage} />
     </BrowserRouter>
   );
 }
