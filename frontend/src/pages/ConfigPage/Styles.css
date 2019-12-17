@@ -1,0 +1,20 @@
+.config-page .menu {
+    grid-area: menu;
+}
+
+.config-page .content {
+    grid-area: main;
+}
+
+.config-page .aside {
+    grid-area: aside;
+}
+
+.config-page {
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 74px auto 30%;
+    grid-template-rows: 1fr;
+    grid-template-areas: "menu main aside";
+}
