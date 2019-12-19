@@ -8,7 +8,7 @@ export default class Nav extends React.Component {
     return (
       <div className="menu">
         <header>
-          <Link to="/">Logo</Link>
+          <Link to="/dashboard">Logo</Link>
         </header>
         <nav>
           <ul className="menu-list">
