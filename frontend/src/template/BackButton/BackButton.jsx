@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import '../Styles.css';
+import './Styles.css';
 
 export default function BackButton(props) {
     return (

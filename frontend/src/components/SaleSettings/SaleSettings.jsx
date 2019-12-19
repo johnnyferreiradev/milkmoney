@@ -1,5 +1,7 @@
 import React from 'react';
 
+import BackButton from '../../template/BackButton/BackButton';
+
 import './Styles.css';
 
 export default class SaleSettings extends React.Component {
@@ -17,6 +19,7 @@ export default class SaleSettings extends React.Component {
     render() {
         return (
             <div className="content">
+                <BackButton path="/dashboard" />
                 <form className="sale-settings">
                     <div className="sale-settings-form-group">
                         <label htmlFor="value-per-liter">Valor do litro (L) do leite</label>
