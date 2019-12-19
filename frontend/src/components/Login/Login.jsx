@@ -16,6 +16,12 @@ export default class Login extends React.Component {
     handlePassword(password) {
         this.setState({ password });
     }
+
+    // Alterando o state do componente pai
+    handleModeChange(e, mode) {
+        e.preventDefault();
+        this.props.onModeChange(mode);
+    }
     
     render() {
         return (
@@ -34,7 +40,12 @@ export default class Login extends React.Component {
                     </div>
                     <div className="login-form-group">
                         <label htmlFor="login-password">Senha </label>
-                        <label htmlFor="login-password"> Cadastre-se </label>
+                        <label
+                            htmlFor="login-password"
+                            onClick={event => this.handleModeChange(event, "register")}
+                        >
+                            Cadastre-se
+                        </label>
                         <br/> {/** temporário */}
                         <input
                             type="password"
@@ -44,6 +55,9 @@ export default class Login extends React.Component {
                     </div>
                     <div className="login-form-group">
                         <button>Entrar</button>
+                    </div>
+                    <div className="login-form-group">
+                        <p onClick={event => this.handleModeChange(event, "recover")}>Esqueci minha senha</p>
                     </div>
                 </form>
             </div>

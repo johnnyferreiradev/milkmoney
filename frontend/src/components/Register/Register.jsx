@@ -26,6 +26,12 @@ export default class Login extends React.Component {
     handleConfirmPassword(confirmPassword) {
         this.setState({ confirmPassword });
     }
+
+    handleModeChange(e) {
+        e.preventDefault();
+        const mode = "login";
+        this.props.onModeChange(mode);
+    }
     
     render() {
         return (
@@ -69,6 +75,7 @@ export default class Login extends React.Component {
                     <div className="register-form-group">
                         <button>Cadastrar-se</button>
                     </div>
+                    <p onClick={event => this.handleModeChange(event)}>Ja possui cadastro? Faça login</p>
                 </form>
             </div>
         );
