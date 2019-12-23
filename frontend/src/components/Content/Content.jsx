@@ -1,14 +1,19 @@
 import React from 'react';
 
-import SalesList from '../SalesList/SalesList';
 import TitlePage from '../../template/TitlePage/TitlePage';
+import FilterByDate from '../../components/FilterByDate/FilterByDate';
+import SalesList from '../SalesList/SalesList';
 
 import './Styles.css';
 
 export default function Content () {
   return (
     <div className="content">
-      <TitlePage title="Dashboard"/>
+      <header className="header-dashboard">
+        <TitlePage title="Dashboard"/>
+        <FilterByDate />
+      </header>
+
       <SalesList />
     </div>
   );
