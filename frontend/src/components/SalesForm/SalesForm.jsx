@@ -10,11 +10,11 @@ export default class SalesForm extends React.Component {
                 <form>
                     <div className="form-sale-group">
                         <label htmlFor="sales-form-date">Data da venda</label>
-                        <input type="date" id="sales-form-date"/>
+                        <input type="date" id="sales-form-date" />
                     </div>
                     <div className="form-sale-group">
                         <label htmlFor="sales-form-amount-produced">Quantidade produzida:</label>
-                        <input type="number" step="0.001" id="sales-form-amount-produced"/>
+                        <input type="number" step="0.001" id="sales-form-amount-produced" />
                     </div>
                     <div className="form-sale-group">
                         <label htmlFor="sales-form-sold-amount">Quantidade vendida:</label>

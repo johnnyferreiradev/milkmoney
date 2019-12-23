@@ -1,6 +1,7 @@
 .menu {
-  background: coral;
+  background: #31a7e2;
   padding: 10px;
+  color: #fff;
 
   display: flex;
   flex-direction: column;
