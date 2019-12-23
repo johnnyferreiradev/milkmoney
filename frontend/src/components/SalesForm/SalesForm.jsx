@@ -20,6 +20,9 @@ export default class SalesForm extends React.Component {
                         <label htmlFor="sales-form-sold-amount">Quantidade vendida:</label>
                         <input type="number" step="0.001" id="sales-form-sold-amount" />
                     </div>
+                    <div className="form-sale-group">
+                        <button>Salvar</button>
+                    </div>
                 </form>
             </div>
         );
