@@ -13,7 +13,6 @@ export default function Content () {
         <TitlePage title="Dashboard"/>
         <FilterByDate />
       </header>
-
       <SalesList />
     </div>
   );

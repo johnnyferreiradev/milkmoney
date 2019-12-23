@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-// import { Container } from './styles';
+import './Styles.css';
 
 export default class FilterByDate extends Component {
   render() {
