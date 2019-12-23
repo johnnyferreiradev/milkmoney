@@ -8,7 +8,7 @@ import './Styles.css';
 export default function Content () {
   return (
     <div className="content">
-      <TitlePage />
+      <TitlePage title="Dashboard"/>
       <SalesList />
     </div>
   );

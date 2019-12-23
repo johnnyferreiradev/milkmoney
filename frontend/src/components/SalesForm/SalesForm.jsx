@@ -6,7 +6,7 @@ export default class SalesForm extends React.Component {
     render() {
         return (
             <div className="content">
-                <TitlePage />
+                <TitlePage title="Nova venda" />
                 <form>
                     <div className="form-sale-group">
                         <label htmlFor="">Data da venda</label>

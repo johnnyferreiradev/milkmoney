@@ -2,10 +2,10 @@ import React from 'react';
 
 import './Styles.css';
 
-export default function TitlePage() {
+export default function TitlePage(props) {
     return (
         <header className="title-page">
-            <h1>Um título qualquer</h1>
+            <h1>{props.title}</h1>
         </header>
     );
 }
