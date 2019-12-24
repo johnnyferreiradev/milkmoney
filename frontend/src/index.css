@@ -1,6 +1,12 @@
+@font-face {
+  font-family: Roboto-Regular;
+  src: url('./assets/fonts/Roboto-Regular.ttf');
+}
+
 * {
   margin: 0px;
   padding: 0px;
+  font-family: Roboto-Regular, sans-serif;
 }
 
 html, body, #root {
