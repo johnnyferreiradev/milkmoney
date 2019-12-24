@@ -16,10 +16,17 @@ export default class Sale extends React.Component {
 
     return (
       <div className="sale-item">
-        <p>Data: <span>{saleDate}</span></p>
-        <p>Quantidade produzido: <span>{amountProduced}</span></p>
-        <p>Quantidade vendido: <span>{soldAmount}</span></p>
-        <p>Valor vendido: <span>{literValue * soldAmount} R$</span></p>
+        <div className="sale-item-header">
+          <p><span>{amountProduced}</span> litros produzidos</p>
+          <p className="total">total: <span>{literValue * soldAmount} R$</span></p>
+        </div>
+        <div className="sale-item-content">
+          <p><span>{soldAmount}</span> litros vendidos</p>
+        </div>
+        <hr/>
+        <div className="sale-item-footer">
+          <p><span>{saleDate}</span></p>
+        </div>
       </div>
     );
   }
