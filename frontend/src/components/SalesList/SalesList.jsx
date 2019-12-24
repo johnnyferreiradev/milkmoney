@@ -14,6 +14,10 @@ export default class SalesList extends React.Component {
         { id: 2, saleDate: '02/02/2020', amountProduced: 40, soldAmount: 40},
         { id: 3, saleDate: '03/03/2020', amountProduced: 60, soldAmount: 58},
         { id: 4, saleDate: '04/04/2020', amountProduced: 52, soldAmount: 48},
+        { id: 5, saleDate: '04/04/2020', amountProduced: 52, soldAmount: 48},
+        { id: 6, saleDate: '04/04/2020', amountProduced: 52, soldAmount: 48},
+        { id: 7, saleDate: '04/04/2020', amountProduced: 52, soldAmount: 48},
+        { id: 8, saleDate: '04/04/2020', amountProduced: 52, soldAmount: 48},
       ],
     }
   }
