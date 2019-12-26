@@ -18,7 +18,7 @@ export default class Sale extends React.Component {
       <div className="sale-item">
         <div className="sale-item-header">
           <p><span>{amountProduced}</span> litros produzidos</p>
-          <p className="total">total: <span>{literValue * soldAmount} R$</span></p>
+          <p className="total">total vendido: <span>{literValue * soldAmount} R$</span></p>
         </div>
         <div className="sale-item-content">
           <p><span>{soldAmount}</span> litros vendidos</p>
