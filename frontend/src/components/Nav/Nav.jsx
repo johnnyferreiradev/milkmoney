@@ -12,16 +12,16 @@ export default class Nav extends React.Component {
           <Link to="/dashboard">
             <img src={logo} alt="Logo MilkMoney" className="menu-logo"/>
           </Link>
+          <nav>
+            <ul className="menu-list">
+              <li className="menu-item active">Item 1</li>
+              <li className="menu-item">Item 2</li>
+              <li className="menu-item">
+                <Link to="/settings">Settings</Link>
+              </li>
+            </ul>
+          </nav>
         </header>
-        <nav>
-          <ul className="menu-list">
-            <li className="menu-item">Item 1</li>
-            <li className="menu-item">Item 2</li>
-            <li className="menu-item">
-              <Link to="/settings">Settings</Link>
-            </li>
-          </ul>
-        </nav>
         <footer>
           Outra coisa
         </footer>

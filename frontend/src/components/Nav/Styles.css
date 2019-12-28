@@ -1,6 +1,6 @@
 .menu {
   background: #31a7e2;
-  padding: 10px;
+  padding: 0px;
   color: #fff;
 
   display: flex;
@@ -10,8 +10,9 @@
 }
 
 .menu .menu-logo {
-  width: 100%;
-  height: 100%;
+  width: 70px;
+  height: 60px;
+  margin-bottom: 40px;
   transition: all .2s;
   position: relative;
   top: 10px;
@@ -21,6 +22,10 @@
   box-shadow: 1px 1px 10px #63c3f3;
   background-color: #63c3f3;
   border-radius: 90%;
+}
+
+.menu header {
+  width: 100%;
 }
 
 .menu nav .menu-list {
@@ -34,5 +39,29 @@
 }
 
 .menu nav .menu-list .menu-item {
-  margin-bottom: 40px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  padding: 20px 10px;
+  text-align: center;
+  transition: all .2s;
+}
+
+.menu nav .menu-list .menu-item * {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu nav .menu-list .menu-item:hover {
+  cursor: pointer;
+  background-color: #5cb4e0;
+}
+
+.menu .menu-list li.active {
+  background-color: #7ecdf5;
+  border-left: 4px solid #dff1fa;
+}
+
+.menu .menu-list li.active:hover {
+  background-color: #7ecdf5;
 }
