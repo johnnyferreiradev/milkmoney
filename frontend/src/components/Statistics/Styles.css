@@ -1,0 +1,53 @@
+.statistics { 
+    color: #666;
+}
+
+.statistics .statistics-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.statistics .statistics-date {
+    margin-bottom: 20px;
+    color: #31a7e2;
+}
+
+.statistics hr {
+    border: none;
+    border-bottom: 1px solid #eee;
+}
+
+.statistics .statistics-quantities {
+    padding: 20px 0px;
+}
+
+.statistics .statistics-quantities p {
+    margin-bottom: 10px;
+}
+
+.statistics .statistics-quantities p span {
+    font-weight: bold;
+}
+
+.statistics .statistics-total {
+    background-color: #fff;
+    box-shadow: 0px 0px 2px #0004;
+    padding: 20px;
+    border-radius: 8px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.statistics .statistics-total p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.statistics .statistics-total h2 {
+    color: #39d6a2;
+    font-size: 28px;
+}
