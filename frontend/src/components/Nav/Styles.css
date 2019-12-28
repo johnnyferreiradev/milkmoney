@@ -9,19 +9,25 @@
   align-items: center;
 }
 
-.menu .menu-logo {
-  width: 70px;
-  height: 60px;
-  margin-bottom: 40px;
-  transition: all .2s;
-  position: relative;
-  top: 10px;
+.menu .link-logo {
+  padding: 5px;
+  margin-top: 14px;
+  margin-bottom: 11px;
 }
 
-.menu .menu-logo:hover {
-  box-shadow: 1px 1px 10px #63c3f3;
-  background-color: #63c3f3;
-  border-radius: 90%;
+.menu #link-to-dashboard {
+  display: block;
+  width: 100%;
+}
+
+.menu .link-logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu .link-logo img:hover {
+  background-color: #5cb4e0;
+  border-radius: 4px;
 }
 
 .menu header {

@@ -9,9 +9,12 @@ export default class Nav extends React.Component {
     return (
       <div className="menu">
         <header>
-          <Link to="/dashboard">
-            <img src={logo} alt="Logo MilkMoney" className="menu-logo"/>
-          </Link>
+          <div className="link-logo">
+            <Link to="/dashboard" id="link-to-dashboard">
+              <img src={logo} alt="Logo MilkMoney"/>
+            </Link>
+          </div>
+          
           <nav>
             <ul className="menu-list">
               <li className="menu-item active">Item 1</li>
