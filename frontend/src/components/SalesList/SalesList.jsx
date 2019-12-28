@@ -24,6 +24,7 @@ export default class SalesList extends React.Component {
 
   render() {
     const sales = this.state.sales;
+    const errorMessage = <p className="sale-list-error">Não há vendas registradas nesta data</p>;
     const listItems = sales.map((sale) => {
       return (
         <Sale
@@ -38,7 +39,7 @@ export default class SalesList extends React.Component {
     return (
       <div className="sales-list">
         <ButtonNewSale />
-        { listItems }
+        { listItems.length > 0 ? listItems : errorMessage }
       </div>
     );
   }
