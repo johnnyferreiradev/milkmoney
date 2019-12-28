@@ -2,13 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './Styles.css';
+import logo from '../../assets/images/milkmoney_logo.png';
 
 export default class Nav extends React.Component {
   render() {
     return (
       <div className="menu">
         <header>
-          <Link to="/dashboard">Logo</Link>
+          <Link to="/dashboard">
+            <img src={logo} alt="Logo MilkMoney" className="menu-logo"/>
+          </Link>
         </header>
         <nav>
           <ul className="menu-list">
